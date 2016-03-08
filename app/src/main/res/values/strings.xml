@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Shika Tiko</string>
+    <string name="title_1">Shika Tiko</string>
+    <string name="description_1">Shika Tiko is an application that enables you to book bus tickets through your mobile phone</string>
+    <string name="title_2">Pick a destination</string>
+    <string name="description_2">Choose the town you want to visit</string>
+    <string name="title_3">Select a bus line</string>
+    <string name="description_3">Choose from the listed options</string>
+    <string name="title_4">Book your ticket</string>
+    <string name="description_4">Now you can book your ticket. Simple, right?</string>
+</resources>
