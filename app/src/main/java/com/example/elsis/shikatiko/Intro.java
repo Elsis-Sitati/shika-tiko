@@ -1,5 +1,6 @@
 package com.example.elsis.shikatiko;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -9,10 +10,11 @@ import com.heinrichreimersoftware.materialintro.slide.SimpleSlide;
 public class Intro extends IntroActivity {
 
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
-        /* Enable/disable fullscreen */
         setFullscreen(true);
 
         super.onCreate(savedInstanceState);
@@ -48,5 +50,13 @@ public class Intro extends IntroActivity {
                 .build());
 
 
+
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        Intent intent=new Intent(getBaseContext(),MainActivity.class);
+        startActivity(intent);
     }
 }
