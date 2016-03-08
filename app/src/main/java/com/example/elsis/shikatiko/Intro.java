@@ -56,7 +56,7 @@ public class Intro extends IntroActivity {
     @Override
     protected void onStop() {
         super.onStop();
-        Intent intent=new Intent(getBaseContext(),MainActivity.class);
+        Intent intent=new Intent(getBaseContext(),Booking.class);
         startActivity(intent);
     }
 }
