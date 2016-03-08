@@ -10,7 +10,7 @@
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/ic_mail_outline"
+        app:mtf_image="@drawable/ic_person_outline_black_24dp"
         >
 
         <EditText
@@ -46,7 +46,7 @@
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/ic_mail_outline"
+        app:mtf_image="@drawable/ic_phone_black_24dp"
         >
 
         <EditText
