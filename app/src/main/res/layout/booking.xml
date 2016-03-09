@@ -5,13 +5,14 @@
     android:orientation="vertical"
     android:background="@color/mdtp_accent_color"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:padding="16dp">
 
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/ic_mail_outline"
-        >
+        app:mtf_image="@drawable/ic_person_outline_black_24dp"
+        android:padding="10dp">
 
         <EditText
             android:id="@+id/person_name"
@@ -21,7 +22,7 @@
             android:inputType="textPersonName"
             android:textColor="#333"
             android:textColorHint="#666"
-            android:textSize="15sp" />
+            android:textSize="15dp" />
 
     </com.github.florent37.materialtextfield.MaterialTextField>
 
@@ -29,7 +30,7 @@
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         app:mtf_image="@drawable/ic_mail_outline"
-        >
+        android:padding="10dp">
 
         <EditText
             android:id="@+id/person_email"
@@ -39,15 +40,15 @@
             android:inputType="textEmailAddress"
             android:textColor="#333"
             android:textColorHint="#666"
-            android:textSize="15sp" />
+            android:textSize="15dp" />
 
     </com.github.florent37.materialtextfield.MaterialTextField>
 
     <com.github.florent37.materialtextfield.MaterialTextField
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        app:mtf_image="@drawable/ic_mail_outline"
-        >
+        app:mtf_image="@drawable/ic_phone_black_24dp"
+        android:padding="10dp">
 
         <EditText
             android:id="@+id/person_phone"
@@ -57,17 +58,18 @@
             android:inputType="phone"
             android:textColor="#333"
             android:textColorHint="#666"
-            android:textSize="15sp" />
+            android:textSize="15dp" />
 
     </com.github.florent37.materialtextfield.MaterialTextField>
 
-    <com.gc.materialdesign.views.ButtonFlat
-        android:id="@+id/buttonflat"
+    <com.gc.materialdesign.views.ButtonRectangle
+        android:id="@+id/buttonbook"
         android:theme="@style/AppTheme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#1E88E5"
+        android:background="#1e88e5"
         materialdesign:animate="true"
-        android:text="Book your ticket" />
+        android:text="Book your ticket"
+        android:padding="10dp" />
 
 </LinearLayout>
